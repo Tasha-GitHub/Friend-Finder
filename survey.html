@@ -11,47 +11,25 @@
 <body>
 
   <div class="container">
-    <div class="jumbotron">
-      <h1>Friend Finder</h1>
-      <h3>Answer a few basic questions. Then find the friend with the greatest compatibility!!</h3>
+    
+      <h1>Survey Questions</h1>
       <hr>
-      <a href="/add"><button type="button" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-plus"></span> Add New Character</button></a>
-    </div>
+      <div class="panel-body">
+            <h1>Survey Questions</h1>
+            <hr>
+            <input type="text" id="characterSearch" class="form-control" >
+            <br>
+      </div>
+      <div class="panel-body">
+            <input type="text" id="characterSearch" class="form-control" >
+            <br>
+      </div>
     <div class="row">
 
       <div class="col-lg-12">
-
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title"><strong>Character Search</strong></h3>
-          </div>
-          <div class="panel-body">
-            <input type="text" id="characterSearch" class="form-control" >
-            <br>
-            <div class="text-right">
-              <button type="submit" class="btn btn-primary btn-md" id="searchBtn"></span><span class="glyphicon glyphicon-search"></span> Search Your Feelings. You know it is true.</button>
-
-            </div>
-          </div>
-        </div>
-
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h3 class="panel-title"><strong>Character Statistics</strong></h3>
-          </div>
-          <div class="panel-body">
-            <div class="well">
-              <h2 id="name">Yoda</h2>
-              <div id="stats">
-                <h3><strong>Role:</strong> <span id="role">Jedi Master</span></h3>
-                <h3><strong>Age:</strong> <span id="age">900</span></h3>
-                <h3><strong>Force Points:</strong> <span id="forcePoints">2000</span></h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
+    </div>
+    <button type="submit" class="btn btn-primary btn-md" id="searchBtn"></span><span class="glyphicon glyphicon-ok-circle"></span> Submit</button>
   </div>
 
   <script type="text/javascript">
